@@ -1,42 +1,78 @@
 import {
-  gamivision,
-  remotely,
-  uol,
-  sololearn,
-  rollingball,
-  nova_assault,
-  mini_bounce,
-  smash_hit,
-  ar_game,
-  car_parking,
-
-  
+  nitk,
+  cluboard,
+  cash_flow,
+  gdsc,
+  iris,
+  ecell,
+  genesis,
   portfolio,
   publiclab,
   zulip,
+  cdc,
+  chargeswap,
+  placeicon,
+  recruitment,
+  huntly,
+  oracle,
+  comicify_ai,
+  greentrust,
+  averlon,
   devfolio,
+  pba,
+  ethglobal,
+  polkadot,
+  lightspeed,
+  dennisivy,
+  manipal,
+  icon,
   ethforall
 } from "../assets";
 
 import {
   AiFillGithub,
+  AiFillInstagram,
   AiFillLinkedin,
   AiFillMail,
+  AiOutlineTwitter,
   AiFillHtml5,
+  AiOutlineGitlab,
 } from "react-icons/ai";
 
 import {
-  
+  SiDjango,
   SiJavascript,
+  SiBootstrap,
+  SiReact,
+  SiTailwindcss,
+  SiGraphql,
   SiPython,
   SiCplusplus,
   SiC,
+  SiRubyonrails,
+  SiJquery,
   SiVisualstudiocode,
+  SiPostman,
   SiGit,
   SiMysql,
+  SiSolidity,
+  SiNetlify,
+  SiChartdotjs,
+  SiVite,
+  SiArduino,
+  SiWeb3Dotjs,
+  SiIpfs,
+  SiDotnet,
+  SiTwilio,
+  SiFlutter,
+  SiReplit,
+  SiFlask,
   SiFigma,
-  SiCsharp,
-  SiUnity
+  SiGooglemaps,
+  SiOpenai,
+  SiGooglecloud,
+  SiNextdotjs,
+  SiMicrosoftazure
 } from "react-icons/si";
 
 import {
@@ -54,10 +90,10 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1WEOgs_-R2oDH69DKC9BhPShlhCS-tglU/view";
-export const repoLink = "https://github.com/Ali-Raza171/portfolio";
+export const resumeLink = "https://drive.google.com/file/d/1dp9zYqgvYBNga49JDnm5lizsT1rWQRCa/view?usp=sharing";
+export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
 
-export const callToAction = "https://www.linkedin.com/in/aliraza024/"
+export const callToAction = "https://www.linkedin.com/in/mittal-parth";
 
 export const navLinks = [
   {
@@ -76,7 +112,14 @@ export const navLinks = [
     id: "projects",
     title: "Projects",
   },
-  
+  {
+    id: "openSource",
+    title: "Open Source",
+  },
+  {
+    id: "extraCurricular",
+    title: "Extra Curricular",
+  },
   {
     id: "contactMe",
     title: "Contact Me",
@@ -86,102 +129,109 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: uol,
-    title: "University of Lahore",
-    degree: "Bachelor of Software Engineering",
-    duration: "Spring 2021 - Fall 2025",
-    content1: "Major: Software Engineering",
-    content2: "Minor: Data Science",
+    icon: nitk,
+    title: "National Institute of Technology Karnataka, Surathkal",
+    degree: "Bachelor of Technology",
+    duration: "December 2020 - May 2024",
+    content1: "Major: Electronics and Communication Engineering",
+    content2: "Minor: Information Technology",
   },
-  
+  {
+    id: "education-2",
+    icon: pba,
+    title: "Polkadot Blockchain Academy",
+    degree: "",
+    duration: "May 2024 - June 2024",
+    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+  },
 ];
 
 export const achievements = [
   {
     id: "a-1",
-    icon: remotely,
-    event: "Remote Game Development",
-    position: "Self-learning",
-    content1: "Developed multiple games remotely, showcasing self-discipline and effective communication in virtual environments.",
-    content2: "Managed end-to-end game development cycles independently, ensuring projects were completed on schedule and to specifications.",
-    content3: "Collaborated with global teams to deliver engaging gameplay experiences, leveraging remote tools and agile methodologies.",
-    article: "",
-    project: "",
-    github: "https://github.com/Ali-Raza171",
+    icon: ethglobal,
+    event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
+    position: "Winner",
+    content1: "Top 12 winners among 20k+ registrations",
+    content2: "One of Polygon's Best Public Goods",
+    content3: "Best Module on Biconomy SDK",
+    article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
+    project: "https://devfolio.co/projects/chargeswap-3527",
+    youtube: "https://youtu.be/9rieTya8Yds?t=3908",
   },
   {
-    id: "a-1",
-    icon: sololearn,
-    event: "Python Certification",
-    position: "Sololearn",
-    content1: "Earned a Python Intermediate certification from SoloLearn, solidifying proficiency in core programming concepts.",
-    content2: "Applied Python skills to develop game mechanics and backend systems, enhancing gameplay functionality and performance.",
-    content3: "Continuously expanded Python knowledge through practice and projects, integrating new techniques into game development workflows.",
-     
-    article: "",
-    project: "https://api2.sololearn.com/v2/certificates/CC-NVSJ1BOA/image/png",
-    github: "",
+    id: "a-2",
+    icon: polkadot,
+    event: "Polkadot Hackathon: Europe Edition",
+    position: "2nd Runner Up in the ink! Smart Contract Category",
+    content1: "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
+    content2: "",
+    content3: "",
+    github: "https://github.com/pranav2305/GreenTrust",
   },
-  
+  {
+    id: "a-3",
+    icon: lightspeed,
+    event: "Warpspeed by Lightspeed",
+    position: "1st Runner Up",
+    content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
+    content2: "Top 3 projects using Replit",
+    content3: "1st Runner Up by Amazon Web Services (AWS)",
+    article: "https://shorturl.at/fhjsT",
+  },
+  {
+    id: "a-4",
+    icon: dennisivy,
+    event: "September Hackathon by Dennis Ivy",
+    position: "Winner",
+    content1: "Rated the best portfolio website among 450+ participants across the globe.",
+    content2: "",
+    content3: "",
+    youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
+    project: "https://parthmittal.netlify.app/",
+  },
+  {
+    id: "a-5",
+    icon: manipal,
+    event: "Manipal Hackathon'22",
+    position: "Consolation Prize",
+    content1: "Top 10 among 500+ teams across India",
+    content2: "Developed a cross-platform mobile application to address the problem of social cohesion.",
+    content3: "",
+    article: "https://shorturl.at/exEIQ",
+  },
+  {
+    id: "a-6",
+    icon: icon,
+    event: "ICON Hyperbuild Hackathon",
+    position: "Honorable Mention",
+    content1: "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
+    content2: "",
+    content3: "",
+    project: "https://devpost.com/software/green-trust-xj2w6g",
+  },
+  {
+    id: "a-7",
+    icon: ethforall,
+    event: "ETHForAll 2023",
+    position: "Top 3 Superfluid Projects",
+    content1: "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
+    content2: "",
+    content3: "",
+    project: "https://devfolio.co/projects/green-trust-ed14",
+  },
 ];
 
 
 export const skills = [
-  
-  {
-    title: "Skills",
-    items: [
-      {
-        id: "f-1",
-        icon: SiUnity,
-        name: "Unity 2D/3D",
-      },
-      {
-        id: "f-2",
-        icon: SiUnity,
-        name: "Level Design",
-      },
-      {
-        id: "f-3",
-        icon: SiUnity,
-        name: "Terrain Design",
-      },
-      {
-        id: "f-4",
-        icon: SiUnity,
-        name: "Game Testing",
-      },
-      {
-        id: "f-5",
-        icon: SiUnity,
-        name: "Animation",
-      },
-      {
-        id: "f-6",
-        icon: SiUnity,
-        name: "Game Mechanics",
-      },
-      {
-        id: "f-7",
-        icon: SiUnity,
-        name: "Scripting",
-      },
-      {
-        id: "f-8",
-        icon: SiUnity,
-        name: "Project Management",
-      },
-      {
-        id: "f-2",
-        icon: SiUnity,
-        name: "Problem Solving",
-      },
-    ],
-  },
   {
     title: "Programming Languages",
     items: [
-      
+      {
+        id: "pl-1",
+        icon: DiRuby,
+        name: "Ruby",
+      },
       {
         id: "pl-2",
         icon: SiPython,
@@ -192,9 +242,21 @@ export const skills = [
         icon: SiCplusplus,
         name: "C++",
       },
-    
-    
-     
+      {
+        id: "pl-4",
+        icon: FaGolang,
+        name: "Go",
+      },
+      {
+        id: "pl-5",
+        icon: FaRust,
+        name: "Rust",
+      },
+      {
+        id: "pl-6",
+        icon: DiJava,
+        name: "Java",
+      },
       {
         id: "pl-7",
         icon: SiC,
@@ -215,23 +277,76 @@ export const skills = [
         icon: SiJavascript,
         name: "JavaScript",
       },
-     
+      {
+        id: "pl-11",
+        icon: SiSolidity,
+        name: "Solidity",
+      }
     ],
   },
   {
-    title: "Others",
+    title: "Frameworks/Libraries",
+    items: [
+      {
+        id: "f-1",
+        icon: SiDjango,
+        name: "Django",
+      },
+      {
+        id: "f-2",
+        icon: SiRubyonrails,
+        name: "Ruby on Rails",
+      },
+      {
+        id: "f-3",
+        icon: SiReact,
+        name: "ReactJS",
+      },
+      {
+        id: "f-4",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+      {
+        id: "f-5",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS",
+      },
+      {
+        id: "f-6",
+        icon: SiJquery,
+        name: "jQuery",
+      },
+      {
+        id: "f-7",
+        icon: SiGraphql,
+        name: "GraphQL",
+      },
+      {
+        id: "f-8",
+        icon: SiDotnet,
+        name: ".NET",
+      },
+    ],
+  },
+  {
+    title: "Tools",
     items: [
       {
         id: "t-1",
-        icon: SiFigma,
-        name: "Figma",
+        icon: SiMicrosoftazure,
+        name: "Azure",
       },
       {
         id: "t-2",
         icon: SiMysql,
         name: "MySQL",
       },
-      
+      {
+        id: "t-3",
+        icon: SiPostman,
+        name: "Postman",
+      },
       {
         id: "t-4",
         icon: SiVisualstudiocode,
@@ -247,27 +362,41 @@ export const skills = [
         icon: AiFillGithub,
         name: "GitHub",
       },
-      
+      {
+        id: "t-7",
+        icon: AiOutlineGitlab,
+        name: "Gitlab",
+      },
+      {
+        id: "t-8",
+        icon: SiNetlify,
+        name: "Netlify",
+      },
+      {
+        id: "t-9",
+        icon: SiVite,
+        name: "ViteJS",
+      },
     ],
   },
 ];
 
 export const experiences = [
   {
-    organisation: "Gamivision",
-    logo: gamivision,
-    link: "https://www.gamivision.com/",
+    organisation: "Oracle, India",
+    logo: oracle,
+    link: "https://www.oracle.com/in/",
     positions: [
       {
-        title: "Associate Game Developer Intern",
-        duration: "June 2024 - Present",
+        title: "Member of Technical Staff Intern",
+        duration: "May 2023 - Jul 2023",
         content: [
           {
-            text: "Excited to begin my journey at Gamivision as an Associate Game Developer, I am eager to contribute to the creation of captivating and innovative games. I look forward to learning from experienced professionals and honing my skills in game development. Together, we'll embark on building exciting projects that push the boundaries of interactive entertainment, delivering memorable gaming experiences to audiences worldwide.",
-            link: ""
+            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
+            link: "",
           },
           {
-            text: "Together, we'll transform ideas into immersive gaming realities that inspire and entertain.",
+            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
             link: ""
           }
         ],
@@ -275,130 +404,621 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Remotely",
-    logo: remotely,
-    link: "",
+    organisation: "Averlon",
+    logo: averlon,
+    link: "https://averlon.ai/",
     positions: [
       {
-        title: "Self-driven game developer",
-        duration: "July 2023 - Present",
+        title: "Software Developer Intern",
+        duration: "Sept 2023 - Feb 2024",
         content: [
           {
-            text: "I have successfully developed 4 to 5 games, some projects created entirely from scratch and others with leveraging Unity assets. This experience showcases my versatility in game development, encompassing game design, asset integration, scripting in C#, and creating compelling gameplay mechanics. Each project highlights my ability to innovate and deliver engaging gaming experiences across different genres and platforms.",
-            link: "",
+            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
+            link: ""
           },
           {
-            text: "The next target is to develop AR Based shooting Game, which is my FYP as well. Skilled in remote collaboration and passionate about leveraging innovative technologies to deliver engaging gaming experiences.",
+            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
             link: ""
           }
-          
         ],
       },
     ],
   },
+  {
+    organisation: "IRIS, NITK",
+    logo: iris,
+    link: "https://iris.nitk.ac.in/about_us",
+    positions: [
+      {
+        title: "Tech Lead",
+        duration: "Apr 2023 - Apr 2024",
+        content: [
+          {
+            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
+            link: "",
+          },
+          {
+            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
+            link: "",
+          },
+        ],
+      },
+      {
+        title: "Web Lead",
+        duration: "Apr 2022 - Present",
+        content: [
+          {
+            text: "Managing a team of 6 student developers while also overlooking multiple modules.",
+            link: "",
+          },
+        ],
+      },
+      {
+        title: "Web Developer",
+        duration: "Nov 2021 - Apr 2022",
+        content: [
+          {
+            text: "Added Conditional Fields support to the Forms Module.",
+            link: "",
+          },
+        ],
+      },
+      {
+        title: "Web Developer Intern",
+        duration: "Jun 2021 - Oct 2021",
+        content: [
+          {
+            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  }
 ];
 
-
-  
-
+export const openSourceContributions = [
+  {
+    id: "os-1",
+    organisation: "PublicLab",
+    logo: publiclab,
+    repo: "plots2",
+    type: "pull-request",
+    status: "merged",
+    title:
+      "Move _wiki to old table look, common template for email and settings digest only",
+    link: "https://github.com/publiclab/plots2/pull/10731",
+    number: "#10731",
+    date: "Feb 24 2022",
+    linesAdded: "101",
+    linesDeleted: "48",
+  },
+  {
+    id: "os-2",
+    organisation: "PublicLab",
+    logo: publiclab,
+    repo: "plots2",
+    type: "pull-request",
+    status: "merged",
+    title: "Combine templates for email digest and settings digest",
+    link: "https://github.com/publiclab/plots2/pull/10681",
+    number: "#10681",
+    date: "Feb 9 2022",
+    linesAdded: "86",
+    linesDeleted: "106",
+  },
+  {
+    id: "os-3",
+    organisation: "PublicLab",
+    logo: publiclab,
+    repo: "plots2",
+    type: "pull-request",
+    status: "merged",
+    title: "Fix reverse chronological sorting on inline grids",
+    link: "https://github.com/publiclab/plots2/pull/11114",
+    number: "#11114",
+    date: "May 4 2022",
+    linesAdded: "1",
+    linesDeleted: "1",
+  },
+  {
+    id: "os-4",
+    organisation: "PublicLab",
+    logo: publiclab,
+    repo: "plots2",
+    type: "pull-request",
+    status: "merged",
+    title: "style: Make post page footer responsive",
+    link: "https://github.com/publiclab/plots2/pull/10634",
+    number: "#10634",
+    date: "Feb 24 2022",
+    linesAdded: "64",
+    linesDeleted: "8",
+  },
+  {
+    id: "os-5",
+    organisation: "PublicLab",
+    logo: publiclab,
+    repo: "plots2",
+    type: "issue",
+    status: "closed",
+    title: "Typos in Translation_System.md",
+    link: "https://github.com/publiclab/plots2/issues/11120",
+    number: "#11120",
+    date: "May 6 2022",
+    linesAdded: "",
+    linesDeleted: "",
+  },
+  {
+    id: "os-6",
+    organisation: "PublicLab",
+    logo: publiclab,
+    repo: "plots2",
+    type: "issue",
+    status: "closed",
+    title: "Missing translations on layouts/_header.html.erb",
+    link: "https://github.com/publiclab/plots2/issues/11115",
+    number: "#11115",
+    date: "May 4 2022",
+    linesAdded: "",
+    linesDeleted: "",
+  },
+  {
+    id: "os-7",
+    organisation: "PublicLab",
+    logo: publiclab,
+    repo: "plots2",
+    type: "issue",
+    status: "closed",
+    title: "Missing translation of 'This is part of' on _tagging.html.erb",
+    link: "https://github.com/publiclab/plots2/issues/10986",
+    number: "#10986",
+    date: "Apr 8 2022",
+    linesAdded: "",
+    linesDeleted: "",
+  },
+  {
+    id: "os-8",
+    organisation: "PublicLab",
+    logo: publiclab,
+    repo: "plots2",
+    type: "issue",
+    status: "closed",
+    title: "Wrong closing heading tag in _digest.html.erb",
+    link: "https://github.com/publiclab/plots2/issues/10985",
+    number: "#10985",
+    date: "Apr 8 2022",
+    linesAdded: "",
+    linesDeleted: "",
+  },
+  {
+    id: "os-9",
+    organisation: "PublicLab",
+    logo: publiclab,
+    repo: "plots2",
+    type: "issue",
+    status: "closed",
+    title: "Add class to center wiki.scraped_image in wikis template",
+    link: "https://github.com/publiclab/plots2/issues/10797",
+    number: "#10797",
+    date: "Mar 18 2022",
+    linesAdded: "",
+    linesDeleted: "",
+  },
+  {
+    id: "os-10",
+    organisation: "PublicLab",
+    logo: publiclab,
+    repo: "plots2",
+    type: "issue",
+    status: "closed",
+    title: "Images on /wiki are not center aligned",
+    link: "https://github.com/publiclab/plots2/issues/10755",
+    number: "#10755",
+    date: "Mar 4 2022",
+    linesAdded: "",
+    linesDeleted: "",
+  },
+  {
+    id: "os-11",
+    organisation: "Zulip",
+    logo: zulip,
+    repo: "zulip",
+    type: "pull-request",
+    status: "merged",
+    title: "invitations: Check invitation from a now-deactivated user.",
+    link: "https://github.com/zulip/zulip/pull/20206",
+    number: "#20206",
+    date: "Dec 30 2021",
+    linesAdded: "31",
+    linesDeleted: "1",
+  },
+  {
+    id: "os-12",
+    organisation: "Zulip",
+    logo: zulip,
+    repo: "zulip",
+    type: "pull-request",
+    status: "merged",
+    title: "invitations: Check invitation from a now-deactivated user.",
+    link: "https://github.com/zulip/zulip/pull/20206",
+    number: "#20206",
+    date: "Dec 30 2021",
+    linesAdded: "31",
+    linesDeleted: "1",
+  },
+  {
+    id: "os-13",
+    organisation: "Zulip",
+    logo: zulip,
+    repo: "zulip",
+    type: "pull-request",
+    status: "merged",
+    title: "authentication: Fix placeholder realms for redirects.",
+    link: "https://github.com/zulip/zulip/pull/19689",
+    number: "#19689",
+    date: "Sep 9 2021",
+    linesAdded: "1",
+    linesDeleted: "1",
+  },
+  {
+    id: "os-14",
+    organisation: "Zulip",
+    logo: zulip,
+    repo: "zulip",
+    type: "pull-request",
+    status: "merged",
+    title: "message_editing : Fix topic edit propagate option cut-off",
+    link: "https://github.com/zulip/zulip/pull/19760",
+    number: "#19760",
+    date: "Feb 10 2022",
+    linesAdded: "9",
+    linesDeleted: "8",
+  },
+];
 
 export const projects = [
   {
     id: "project-1",
-    title: "Rolling Ball",
-    github: "https://github.com/Ali-Raza171/Rolling-Ball",
-    
-    image: rollingball,
+    title: "Comicify.ai",
+    github: "https://github.com/ayush4345/Comicify.ai",
+    link: "https://comicify-ai.vercel.app/",
+    image: comicify_ai,
     content:
-      "I built a dynamic Rolling Ball game from scratch, where the ball navigates through challenging levels and dodges various obstacles. The game features a main menu for easy navigation, a scoring system to track progress, and customizable game levels to keep the gameplay fresh and engaging. This project delivers an exciting and immersive gaming experience for players.",
-       stack: [
+      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+    stack: [
       {
         id: "icon-1",
-        icon: SiCsharp,
-        name: "C#"
+        icon: SiReact,
+        name: "React"
       },
-     
-      
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiOpenai,
+        name: "OpenAI"
+      },
+      {
+        id: "icon-4",
+        icon: SiGooglecloud,
+        name: "Google Cloud Platform"
+      },
+      {
+        id: "icon-5",
+        icon: SiFlask,
+        name: "Flask"
+      },
     ],
   },
   {
     id: "project-2",
-    title: "Smash Hit (Hyper casual Game)",
-    github: "https://github.com/Ali-Raza171/Smash-Hit-HyperCasual-Game",
-    
-    image: smash_hit,
+    title: "GreenTrust",
+    github: "https://github.com/mittal-parth/GreenTrust",
+    link: "https://green-trust-fantom.netlify.app/",
+    image: greentrust,
     content:
-      "Smash Hit is a captivating 2D game asset for Unity, offering dynamic gameplay where players smash blocks and navigate challenges. It features customizable levels and engaging mechanics, ideal for creating interactive gaming experiences.",
+      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
     stack: [
       {
         id: "icon-1",
-        icon: SiCsharp,
-        name: "C#"
+        icon: SiReact,
+        name: "React"
       },
-    
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiNextdotjs,
+        name: "Next.js"
+      },
+      {
+        id: "icon-4",
+        icon: SiIpfs,
+        name: "IPFS"
+      },
+      {
+        id: "icon-5",
+        icon: SiSolidity,
+        name: "Solidity"
+      },
+      {
+        id: "icon-6",
+        icon: IoIosNotificationsOutline,
+        name: "Push Protocol"
+      },
     ],
   },
   {
     id: "project-3",
-    title: "3D FPS ",
-    github: "https://github.com/Ali-Raza171/3D-FPS-Game",
-    
-    image: nova_assault,
+    title: "ChargeSwap",
+    github: "https://github.com/CommanderAstern/ChargeSwap",
+    link: "https://devfolio.co/projects/chargeswap-3527",
+    image: chargeswap,
     content:
-      "Developing an immersive FPS game using Unity's free FPS asset, featuring realistic terrain and engaging shooting mechanics. Incorporating detailed environments to enhance player experience and realism.",
+      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
     stack: [
       {
         id: "icon-1",
-        icon: SiCsharp,
-        name: "C#"
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-3",
+        icon: SiWeb3Dotjs,
+        name: "Web3.js"
+      },
+      {
+        id: "icon-4",
+        icon: SiSolidity,
+        name: "Solidity"
+      },
+      {
+        id: "icon-5",
+        icon: FaHardHat,
+        name: "HardHat"
+      },
+      {
+        id: "icon-6",
+        icon: SiIpfs,
+        name: "IPFS"
+      },
+      {
+        id: "icon-7",
+        icon: SiArduino,
+        name: "Arduino"
+      },
+      {
+        id: "icon-8",
+        icon: IoIosNotificationsOutline,
+        name: "Push Protocol"
       },
     ],
   },
   {
     id: "project-4",
-    title: "Mini Bounce",
-    github: "https://github.com/Ali-Raza171/3D-PlateFormer",
-    
-    image: mini_bounce,
+    title: "Samsotech Table Management System",
+    github: "",
+    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
+    image: placeicon,
     content:
-      "Building a dynamic 3D game from scratch where players control a jumping and moving ball, aiming to strategically hit capsules that trigger platform movements to advance through multiple challenging levels.",
+      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
     stack: [
       {
         id: "icon-1",
-        icon: SiCsharp,
-        name: "C#"
+        icon: SiDotnet,
+        name: "Dot Net Core MVC 6"
+      },
+      {
+        id: "icon-2",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-3",
+        icon: DiMsqlServer,
+        name: "MS Sql Server"
+      },
+      {
+        id: "icon-4",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-5",
+        icon: SiTwilio,
+        name: "Twillio"
       },
     ],
   },
   {
     id: "project-5",
-    title: "In Progress: AR-Based Shooting Game for Kids",
+    title: "Non-Teaching Recruitment Portal, NITK",
     github: "",
-    
-    image: ar_game,
+    link: "http://recruitment.nitk.ac.in/",
+    image: recruitment,
     content:
-      "My Final Year Project (FYP), Experience an educational adventure with our AR-based shooting game designed for children. Combining the excitement of shooting gameplay with interactive math challenges, this project integrates Augmented Reality (AR) to create a fun and immersive learning experience. Children can explore AR-enhanced environments, solve math problems through gameplay, and enjoy dynamic educational entertainment.",
+      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
     stack: [
       {
         id: "icon-1",
-        icon: SiCsharp,
-        name: "C#"
+        icon: SiRubyonrails,
+        name: "Ruby on Rails"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery"
       },
     ],
   },
   {
     id: "project-6",
-    title: "In Progress: Car Parking",
+    title: "Career Development Centre, NITK Website",
     github: "",
-    
-    image: car_parking,
+    link: "http://cdc.nitk.ac.in/",
+    image: cdc,
     content:
-      "Currently, I'm deeply engaged in developing an exciting car parking game that focuses on creating challenging levels and delivering a highly realistic gameplay experience. This project involves meticulous level design to offer players a satisfying yet demanding gameplay environment. Utilizing advanced techniques with canvas rendering, I aim to enhance realism and immersion, ensuring players enjoy a true-to-life parking simulation. Stay tuned as I strive to elevate this project to its fullest potential.",
+      "The official website of CDC, NITK with a custom built CMS.",
     stack: [
       {
         id: "icon-1",
-        icon: SiCsharp,
-        name: "C#"
+        icon: SiRubyonrails,
+        name: "Ruby on Rails"
+      },
+      {
+        id: "icon-2",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-3",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+    ],
+  },
+  {
+    id: "project-7",
+    title: "Huntly",
+    github: "",
+    link: "https://devfolio.co/projects/huntly-b5a9",
+    image: huntly,
+    content:
+      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiDjango,
+        name: "Django Rest Framework"
+      },
+      {
+        id: "icon-2",
+        icon: SiFlutter,
+        name: "Flutter"
+      },
+      {
+        id: "icon-3",
+        icon: SiReplit,
+        name: "Replit"
+      },
+      {
+        id: "icon-4",
+        icon: SiFlask,
+        name: "Flask"
+      },
+      {
+        id: "icon-5",
+        icon: SiFigma,
+        name: "Figma"
+      },
+      {
+        id: "icon-6",
+        icon: SiGooglemaps,
+        name: "Google Maps API"
+      },
+    ],
+  },
+  {
+    id: "project-8",
+    title: "Cluboard",
+    github: "https://github.com/mittal-parth/Cluboard",
+    link: "",
+    image: cluboard,
+    content:
+      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiDjango,
+        name: "Django"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      },
+      {
+        id: "icon-4",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+      {
+        id: "icon-5",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-6",
+        icon: SiChartdotjs,
+        name: "Chart.js"
+      },
+    ],
+  },
+  {
+    id: "project-9",
+    title: "Cash Flow Minimiser",
+    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
+    link: "https://minimise-cash-flow.netlify.app/",
+    image: cash_flow,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-10",
+    title: "Portfolio",
+    github: "https://github.com/mittal-parth/personal-portfolio",
+    link: "https://parthmittal.netlify.app/",
+    image: portfolio,
+    content: "Personal portfolio website with React and Tailwind CSS.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS"
+      },
+      {
+        id: "icon-3",
+        icon: AiFillHtml5,
+        name: "HTML"
       },
     ],
   },
@@ -505,29 +1125,98 @@ export const extraCurricular = [
     ],
     logo: devfolio,
   },
-  
+  {
+    organisation: "Google Developer Student Club, NITK",
+    title: "Co-Chair",
+    duration: "December 2021 - Present",
+    content: [
+      {
+        text: "Started HackClub to promote and spread the culture of Hackathons in the college. 20+ hackathons particiaptions, 15+ wins over the year.",
+        link: "",
+      },
+      {
+        text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
+        link: "https://incident.nitk.ac.in/",
+      },
+    ],
+    logo: gdsc,
+  },
+  {
+    organisation: "Genesis, NITK",
+    title: "Competitions Head",
+    duration: "Sep 2021 - Present",
+    content: [
+      {
+        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
+        link: "",
+      },
+      {
+        text: "Won 7 inter-college solo dance competitions",
+        link: "",
+      },
+    ],
+    logo: genesis,
+  },
+  {
+    organisation: "IRIS, NITK",
+    title: "Tutor",
+    duration: "Jan 2022 - Jan 2022",
+    content: [
+      {
+        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
+        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
+      },
+    ],
+    logo: iris,
+  },
+  {
+    organisation: "E-Cell, NITK",
+    title: "Executive Member",
+    duration: "Sep 2021 - Apr 2022",
+    content: [
+      {
+        text: "Organised the season 3 of the E-Cell NITK Podcast",
+        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
+      },
+      {
+        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
+        link: "",
+      },
+    ],
+    logo: ecell,
+  },
 ];
 
 export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/aliraza024/",
+    link: "https://www.linkedin.com/in/mittal-parth",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://github.com/Ali-Raza171",
+    link: "https://www.github.com/mittal-parth",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:ali.razaa6251@gmail.com",
+    link: "mailto:mittalparth22@gmail.com",
+  },
+  {
+    id: "social-media-4",
+    icon: AiOutlineTwitter,
+    link: "https://www.twitter.com/mittalparth_",
+  },
+  {
+    id: "social-media-5",
+    icon: AiFillInstagram,
+    link: "https://www.instagram.com/mittalparth_",
   },
 ];
 
 export const aboutMe = {
-  name: "Ali Raza",
-  tagLine: "Game Developer | AR Enthusiast | Freelance Unity Developer | FYP AR Shooting Game",
-  intro: "Passionate game developer with experience in Unity and actively working on an AR Based Shooting Game Project, driven by a commitment to exploring innovative gaming solutions and emerging technologies."
+    name: "Parth Mittal",
+    tagLine: "Upcoming MTS @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
+    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
 }

@@ -1,17 +1,4 @@
 import parthmittal from "./parth.svg";
-import gamivision from "./gamivision.jpeg";
-import remotely from "./remotely.jpg";
-import uol from "./uol.jpeg";
-import sololearn from "./sololearn.png";
-import rollingball from "./rollingball.jpg";
-import nova_assault from "./nova_assault.jpg";
-import mini_bounce from "./mini_bounce.jpeg";
-import smash_hit from "./smash_hit.jpg";
-import ar_game from "./ar_game.jpg";
-import car_parking from "./car_parking.png";
-
-
-import profile from "./profile.jpg";
 import profilePic from "./profile-pic.jpg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -28,32 +15,40 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
+import nitk from "./nitk.png";
+import cluboard from "./cluboard.png";
+import cash_flow from "./cash_flow.jpg";
 import freadom from "./freadom.jpg";
+import ecell from "./ecell.png";
 import bank from "./bank.jpg";
+import gdsc from "./gdsc.png";
+import iris from "./iris.png";
+import genesis from "./genesis.jpg";
 import todo from "./todo.jpg";
 import graphql from "./graphql.png";
 import portfolio from "./portfolio.jpg";
 import zulip from "./zulip.jpg";
 import publiclab from "./publiclab.png";
+import cdc from "./cdc.png";
+import chargeswap from "./chargeswap.png";
+import placeicon from "./place-icon.svg";
+import recruitment from "./recruitment.png";
+import huntly from "./huntly.png";
+import oracle from "./oracle.jpg";
+import comicify_ai from "./comicify-ai.png";
+import greentrust from "./green_trust.png";
+import averlon from "./averlon.jpg";
 import devfolio from "./devfolio.png";
+import pba from "./pba_logo.jpeg";
+import ethglobal from "./ethglobal.png";
+import polkadot from "./polkadot.jpeg";
+import lightspeed from "./lightspeed.png";
+import dennisivy from "./dennisivy.png";
+import manipal from "./manipal.png";
+import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 
 export {
-  gamivision,
-  remotely,
-  uol,
-  sololearn,
-  rollingball,
-  nova_assault,
-  mini_bounce,
-  smash_hit,
-  profile,
-  ar_game,
-  car_parking,
-
-  
-  
-
   quotes,
   robot,
   send,
@@ -69,15 +64,38 @@ export {
   instagram,
   linkedin,
   twitter,
+  nitk,
+  cluboard,
+  cash_flow,
   freadom,
   bank,
+  gdsc,
+  iris,
+  ecell,
+  genesis,
   todo,
   graphql,
   portfolio,
   publiclab,
   zulip,
+  cdc,
   parthmittal,
   profilePic,
+  chargeswap,
+  placeicon,
+  recruitment,
+  huntly,
+  oracle,
+  comicify_ai,
+  greentrust,
+  averlon,
   devfolio,
+  pba,
+  ethglobal,
+  polkadot,
+  lightspeed,
+  dennisivy,
+  manipal,
+  icon,
   ethforall
 };
