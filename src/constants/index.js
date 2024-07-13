@@ -253,7 +253,27 @@ export const skills = [
 ];
 
 export const experiences = [
- 
+ {
+    organisation: "Gamivision",
+    logo: gamivision,
+    link: "https://www.gamivision.com/",
+    positions: [
+      {
+        title: "Associate Game Developer Intern",
+        duration: "June 2024 - Present",
+        content: [
+          {
+            text: "Excited to begin my journey at Gamivision as an Associate Game Developer, I am eager to contribute to the creation of captivating and innovative games. I look forward to learning from experienced professionals and honing my skills in game development. Together, we'll embark on building exciting projects that push the boundaries of interactive entertainment, delivering memorable gaming experiences to audiences worldwide.",
+            link: ""
+          },
+          {
+            text: "Together, we'll transform ideas into immersive gaming realities that inspire and entertain.",
+            link: ""
+          }
+        ],
+      },
+    ],
+  },
   {
     organisation: "Remotely",
     logo: remotely,
