@@ -264,11 +264,11 @@ export const experiences = [
         duration: "July 2023 - Present",
         content: [
           {
-            text: "I have successfully developed 4 to 5 games, some projects created entirely from scratch and others with leveraging Unity assets. This experience showcases my versatility in game development, encompassing game design, asset integration, scripting in C#, and creating compelling gameplay mechanics. Each project highlights my ability to innovate and deliver engaging gaming experiences across different genres and platforms.",
+            text: "At Rover Play Studio, I honed my skills in game development by transforming existing games into new and engaging experiences. My role involved customizing the user interface, modifying character designs, and reshaping game environments to create unique and innovative gameplay.",
             link: "",
           },
           {
-            text: "The next target is to develop AR Based shooting Game, which is my FYP as well. Skilled in remote collaboration and passionate about leveraging innovative technologies to deliver engaging gaming experiences.",
+            text: "This hands-on experience has strengthened my ability to adapt and enhance game elements, ensuring that each project stands out with fresh and compelling content.",
             link: ""
           }
           
