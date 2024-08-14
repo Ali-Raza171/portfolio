@@ -255,13 +255,13 @@ export const skills = [
 export const experiences = [
 
   {
-    organisation: "Remotely",
+    organisation: "RoverPlay Studio",
     logo: remotely,
     link: "",
     positions: [
       {
-        title: "Self-driven game developer",
-        duration: "July 2023 - Present",
+        title: "Experience at RoverPlay Studio",
+        duration: "July 2024 - Present",
         content: [
           {
             text: "At Rover Play Studio, I honed my skills in game development by transforming existing games into new and engaging experiences. My role involved customizing the user interface, modifying character designs, and reshaping game environments to create unique and innovative gameplay.",
