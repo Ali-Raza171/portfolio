@@ -253,6 +253,29 @@ export const skills = [
 ];
 
 export const experiences = [
+
+  {
+    organisation: "Remotely",
+    logo: remotely,
+    link: "",
+    positions: [
+      {
+        title: "Self-driven game developer",
+        duration: "July 2023 - Present",
+        content: [
+          {
+            text: "I have successfully developed 4 to 5 games, some projects created entirely from scratch and others with leveraging Unity assets. This experience showcases my versatility in game development, encompassing game design, asset integration, scripting in C#, and creating compelling gameplay mechanics. Each project highlights my ability to innovate and deliver engaging gaming experiences across different genres and platforms.",
+            link: "",
+          },
+          {
+            text: "The next target is to develop AR Based shooting Game, which is my FYP as well. Skilled in remote collaboration and passionate about leveraging innovative technologies to deliver engaging gaming experiences.",
+            link: ""
+          }
+          
+        ],
+      },
+    ],
+  },
  
   {
     organisation: "Remotely",
