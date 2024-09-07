@@ -1,8 +1,13 @@
 import {
   gamivision,
+  roverplaystudio,
   remotely,
   uol,
   sololearn,
+  naughty_monster,
+  naughty_animal,
+  naughty_dino,
+  agent_hunt,
   rollingball,
   nova_assault,
   mini_bounce,
@@ -15,14 +20,18 @@ import {
   publiclab,
   zulip,
   devfolio,
-  ethforall
+  ethforall,
+  apple
 } from "../assets";
 
 import {
   AiFillGithub,
+  
+  AiFillApple,
   AiFillLinkedin,
   AiFillMail,
   AiFillHtml5,
+  
 } from "react-icons/ai";
 
 import {
@@ -40,8 +49,10 @@ import {
 } from "react-icons/si";
 
 import {
+  FaAppStore,
   FaHardHat,
   FaRust
+  
 } from "react-icons/fa";
 
 import {
@@ -256,7 +267,7 @@ export const experiences = [
 
   {
     organisation: "RoverPlay Studio",
-    logo: remotely,
+    logo: roverplaystudio,
     link: "",
     positions: [
       {
@@ -283,8 +294,8 @@ export const experiences = [
     link: "",
     positions: [
       {
-        title: "Self-driven game developer",
-        duration: "July 2023 - Present",
+        title: "Self-driven Game D eveloper",
+        duration: "June 2023 - Present",
         content: [
           {
             text: "I have successfully developed 4 to 5 games, some projects created entirely from scratch and others with leveraging Unity assets. This experience showcases my versatility in game development, encompassing game design, asset integration, scripting in C#, and creating compelling gameplay mechanics. Each project highlights my ability to innovate and deliver engaging gaming experiences across different genres and platforms.",
@@ -306,8 +317,86 @@ export const experiences = [
 
 
 export const projects = [
+  
   {
     id: "project-1",
+    title: "Naughty Monsters Escape Daddy  @RoverPlay Studio",
+    github:"https://apps.apple.com/sa/app/naughty-monsters-escape-daddy/id6621267832",
+    
+    image: naughty_monster,
+    content:
+      "Reskinned the game Naughty Monster Escape Daddy by Redesigning Characters, Player models, and UI elements. Delivered a fresh visual style, improving gameplay aesthetics and user experience. Contributed to enhancing the overall game design and player engagement.",
+       stack: [
+      {
+        id: "icon-1",
+        icon: SiCsharp,
+        name: "C#"
+      },
+     
+      
+    ],
+  },
+  {
+    id: "project-2",
+    title: "Agent Hunt: Hitman Shooter  @RoverPlay Studio",
+    
+    
+    image: agent_hunt,
+    content:
+      "Revamped player models, NPCs, and weapons for AGENT HUNT creating stunning new skins and immersive environments. Designed engaging levels and challenging bosses, enhancing both visual appeal and gameplay. Delivered impactful design improvements, elevating the overall player experience.",
+       stack: [
+      {
+        id: "icon-1",
+        icon: SiCsharp,
+        name: "C#"
+      },
+     
+      
+    ],
+  },
+
+  {
+  id: "project-3",
+  title: "Naughty Animal Escape  @RoverPlay Studio",
+  github:"https://apps.apple.com/us/app/naughty-animal-escape/id6648784721",
+  
+  image: naughty_animal,
+  content:
+    "Transformed Naughty Animal by redefining its environment, levels, and characters, injecting new life into the game. Redesigned other players to enhance the visual and interactive experience. Delivered a refreshed and engaging game world that elevated player enjoyment and immersion.",
+     stack: [
+    {
+      id: "icon-1",
+      icon: SiCsharp,
+      name: "C#"
+    },
+   
+    
+  ],
+  
+},
+
+{
+  id: "project-4",
+  title: "Naughty Dino's Eggs Collector  @RoverPlay Studio",
+  
+  
+  image: naughty_dino,
+  content:
+    "Revitalized Naughty Dino's Eggs Collector by updating its environments, levels, characters, and other players. Enhanced the gameplay experience with a charming little dinosaur collecting eggs within a time limit to complete levels. Delivered a vibrant and engaging game world that enriched player interaction and enjoyment.",
+     stack: [
+    {
+      id: "icon-1",
+      icon: SiCsharp,
+      name: "C#"
+    },
+   
+    
+  ],
+  
+},
+
+  {
+    id: "project-5",
     title: "Rolling Ball",
     github: "https://github.com/Ali-Raza171/Rolling-Ball",
     
@@ -324,8 +413,9 @@ export const projects = [
       
     ],
   },
+  
   {
-    id: "project-2",
+    id: "project-6",
     title: "Smash Hit (Hyper casual Game)",
     github: "https://github.com/Ali-Raza171/Smash-Hit-HyperCasual-Game",
     
@@ -342,7 +432,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-3",
+    id: "project-7",
     title: "3D FPS ",
     github: "https://github.com/Ali-Raza171/3D-FPS-Game",
     
@@ -358,7 +448,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-4",
+    id: "project-8",
     title: "Mini Bounce",
     github: "https://github.com/Ali-Raza171/3D-PlateFormer",
     
@@ -374,7 +464,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-5",
+    id: "project-9",
     title: "In Progress: AR-Based Shooting Game for Kids",
     github: "",
     
@@ -390,7 +480,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-6",
+    id: "project-10",
     title: "In Progress: Car Parking",
     github: "",
     

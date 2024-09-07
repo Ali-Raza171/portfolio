@@ -1,8 +1,13 @@
 import parthmittal from "./parth.svg";
 import gamivision from "./gamivision.jpeg";
+import roverplaystudio from "./roverplaystudio.jpeg";
 import remotely from "./remotely.jpg";
 import uol from "./uol.jpeg";
 import sololearn from "./sololearn.png";
+import naughty_monster from "./naughty_monster.webp";
+import agent_hunt from "./agent_hunt.webp";
+import naughty_dino from "./naughty_dino.jpg";
+import naughty_animal from "./naughty_animal.webp";
 import rollingball from "./rollingball.jpg";
 import nova_assault from "./nova_assault.jpg";
 import mini_bounce from "./mini_bounce.jpeg";
@@ -40,9 +45,14 @@ import ethforall from "./ethforall.png";
 
 export {
   gamivision,
+  roverplaystudio,
   remotely,
   uol,
   sololearn,
+  naughty_monster,
+  agent_hunt,
+  naughty_animal,
+  naughty_dino,
   rollingball,
   nova_assault,
   mini_bounce,

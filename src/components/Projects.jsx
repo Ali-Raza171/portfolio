@@ -1,6 +1,8 @@
 import React from "react";
 import { projects } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
+import { AiFillAppstore } from "react-icons/ai";
+
 import { BsLink45Deg } from "react-icons/bs";
 import { motion } from "framer-motion";
 
@@ -23,7 +25,11 @@ const Project = (props) => {
             {props.title}
           </h1>
           <p className="font-poppins font-normal text-dimWhite mt-3">
-            Tech Stack
+
+            
+
+            
+
           </p>
           <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
             <div className="flex sm:flex-row">
