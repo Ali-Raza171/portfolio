@@ -605,7 +605,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/aliraza024/",
+    link: "https://www.linkedin.com/in/aliraza124/",
   },
   {
     id: "social-media-2",
