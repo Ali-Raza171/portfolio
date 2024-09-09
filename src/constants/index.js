@@ -294,7 +294,7 @@ export const experiences = [
     link: "",
     positions: [
       {
-        title: "Self-driven Game D eveloper",
+        title: "Self-driven Game Developer",
         duration: "June 2023 - Present",
         content: [
           {
